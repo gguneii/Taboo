@@ -3,7 +3,7 @@ const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 
 // WebSocket code
-const socket = new WebSocket('ws://localhost:8080');
+const socket = new WebSocket('ws://localhost:3000');
 
 socket.onopen = function(event) {
     console.log('WebSocket connection established');
